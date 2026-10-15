@@ -4,7 +4,7 @@ from sklearn.datasets import load_iris
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
 
-MODEL_VERSION = "1.0"
+MODEL_VERSION = "2.0"
 
 iris = load_iris()
 X_train, X_test, y_train, y_test = train_test_split(
